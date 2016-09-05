@@ -1,0 +1,255 @@
+
+$main:	#71cdf7;
+$back:	#ECF4F5;
+$headColor: #2085d6;
+$onPic: #fff;
+$most: 'Mogra', cursive;
+$titles: #30419c;
+
+
+*{
+	box-sizing: border-box;
+}
+body{
+	position: relative;
+	background-color: $back;
+	color: $headColor;
+	.anchor{
+		padding-top: 75px;
+	}
+}
+
+h1, h2, h3, h4 {
+    font-family: $most;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 100;
+		color: $headColor;
+    -webkit-margin-before: 0;
+    text-shadow: 2px 3px $titles;
+    margin-bottom: 3%;
+}
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: $main;
+	z-index: 100;
+	ul{
+				margin-right: 4%;
+			}
+	a{
+		color: $headColor !important;
+		font-family: $most;
+			}
+}
+// end navbar
+
+// index
+.carousel-caption{
+	top: 45%;
+	h3{
+		color: #cdd;
+	}
+	p {
+	    font-size: 2em;
+	    font-weight: 150;
+	    font-family: $most;
+			color: #cdd;
+	    text-shadow: 2px 3px $titles;
+			#tooltip1{
+				color: #cdd;
+				text-decoration: none;
+			}
+	}
+}
+
+// work
+#work{
+	padding-bottom: 10%;
+	.work-img{
+		display: block;
+		margin: auto;
+		max-width: 200px;
+		position: relative;
+		padding: 3%;
+		}
+	.info-work{
+		position: absolute;
+		top: 25%;
+		left: 22%;
+		color: #000;
+		font-family: $most;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.2em;
+		line-height: 1.5;
+		text-align: center;
+		display: none;
+	}
+	.proj-title{
+		font-weight: 100;
+	}
+}
+
+// about
+#about{
+	background-image: url("/img/fence.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: $onPic;
+	h1,h3{
+		color: $onPic
+	}
+	img{
+		border-radius: 50%;
+		border: 3px solid #009688,
+	}
+	#intro{
+		p {
+		    text-align: center;
+		    font-family: $most;
+		    font-size: 1.5em;
+		    font-weight: 150;
+		    -webkit-margin-before: 0;
+		}
+	}
+	#skills{
+		border-radius: 23%;
+		padding: 20px;
+		background-color: $main;
+		ul{
+			font-weight: 150;
+	    font-size: 1.5em;
+		}
+	}
+	.main-text{
+		width: 80%;
+		margin: 4% 10%;
+		clear: both;
+		text-align: center;
+		font-size: 1.4em;
+	}
+}
+
+// learn more
+.modal-button{
+	position: absolute;
+	left: 46%;
+}
+#CV-pdf{
+	height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+// FAQ
+.panel{
+	.panel-title {
+	    text-shadow: none;
+	    font-size: 1.5em;
+	}
+	.panel-heading{
+		background-color: $main;
+		color: $headColor;
+	}
+	.panel-body{
+		background-color: #c2eafd;
+	}
+}
+
+// contact
+#contact{
+	background-image: url("/img/fence.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	color: $onPic;
+	h1,h2{
+		color: $onPic;
+		margin-bottom: 4%;
+	}
+	.details{
+		margin-bottom: 15px;
+		text-align: center;
+    font-size: 2em;
+    font-weight: 150;
+    font-family: $most;
+		a{
+			color: $onPic;
+		}
+		a:hover,span:hover{
+			color: #000;
+			-webkit-transition: color 700ms
+		}
+	}
+	#sub{
+		margin: 2%;
+	}
+	#visible-comment {
+	    text-align: left;
+	    font-size: 1.5em;
+	    font-weight: 150;
+	    font-family: 'Mogra', cursive;
+			text-align: center;
+	}
+}
+
+// footer
+
+footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: $main;
+	z-index: 100;
+	max-height: 23px;
+	display: inline;
+	p{
+		display: inline;
+    text-align: center;
+	}
+	.twitter-follow-button{
+		float: right;
+		display: inline;
+	}
+	.fb-like {
+	    display: inline-block;
+	    float: right;
+	    margin-right: 5px;
+	}
+}
+
+/*tool tips*/
+
+#tooltip1 {
+    color: $onPic;
+    text-decoration: underline;
+		&:hover {
+		color: #000;
+		}
+}
+
+#tooltip2 {
+    position: fixed;
+    z-index: 100;
+    bottom: 23px;
+    right: 10px;
+    background-color:$main;
+    border-color: $main;
+    max-height: 50px;
+    max-width: 50px;
+		a {
+		  color: $onPic;
+		  font-size: 2em;
+		}
+		&:hover {
+		    color: #000;
+		}
+}

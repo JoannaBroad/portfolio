@@ -1,0 +1,83 @@
+
+body {
+  position: relative;
+  background-color: #d2d4d6;
+  color: #34495e;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #697078;
+  z-index: 1;
+}
+.navbar ul {
+  color: #F8F8FF;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 3%;
+}
+.projectName a{
+  text-transform: uppercase;
+  color: #F8F8FF;
+  font-family: 'Mogra', cursive;
+}
+
+.container{
+  width: 320px;
+  height: 350px;
+  background-color: white;
+  margin-top: 80px;
+  border-radius: 8%;
+}
+
+#blank{
+  margin: 5px 15px;
+  width: 290px;
+  height:60px;
+  border-style: inset;
+  border-radius: 12%;
+}
+#num{
+  margin: 7px 10px;
+  width: 60px;
+  height:55px;
+  border-style: outset;
+  border-radius: 12%;
+  background-color: #56b3c7;
+  position: relative;
+
+  font-size: 2em;
+}
+
+#num :active{
+  margin-left: -16px;
+  width: 60px;
+  height:55px;
+  border-style: inset;
+  border-radius: 12%;
+  background-color: #1f7082
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #697078;
+  z-index: 100;
+  max-height: 23px;
+   display: inline;
+}
+footer p{
+  display: inline;
+  text-align: center;
+}
+.twitter-follow-button{
+  float: right;
+  display: inline;
+}
+.fb-like{
+  display: inline-block;
+  float: left;
+}

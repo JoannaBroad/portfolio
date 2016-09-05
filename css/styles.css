@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #ECF4F5;
+  color: #2085d6;
+}
+
+body .anchor {
+  padding-top: 75px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Mogra", cursive;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 100;
+  color: #2085d6;
+  -webkit-margin-before: 0;
+  text-shadow: 2px 3px #30419c;
+  margin-bottom: 3%;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #71cdf7;
+  z-index: 100;
+}
+
+.navbar ul {
+  margin-right: 4%;
+}
+
+.navbar a {
+  color: #2085d6 !important;
+  font-family: "Mogra", cursive;
+}
+
+.carousel-caption {
+  top: 45%;
+}
+
+.carousel-caption h3 {
+  color: #cdd;
+}
+
+.carousel-caption p {
+  font-size: 2em;
+  font-weight: 150;
+  font-family: "Mogra", cursive;
+  color: #cdd;
+  text-shadow: 2px 3px #30419c;
+}
+
+.carousel-caption p #tooltip1 {
+  color: #cdd;
+  text-decoration: none;
+}
+
+#work {
+  padding-bottom: 10%;
+}
+
+#work .work-img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  position: relative;
+  padding: 3%;
+}
+
+#work .info-work {
+  position: absolute;
+  top: 25%;
+  left: 22%;
+  color: #000;
+  font-family: "Mogra", cursive;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  text-align: center;
+  display: none;
+}
+
+#work .proj-title {
+  font-weight: 100;
+}
+
+#about {
+  background-image: url("/img/fence.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+}
+
+#about h1, #about h3 {
+  color: #fff;
+}
+
+#about img {
+  border-radius: 50%;
+  border: 3px solid #009688;
+}
+
+#about #intro p {
+  text-align: center;
+  font-family: "Mogra", cursive;
+  font-size: 1.5em;
+  font-weight: 150;
+  -webkit-margin-before: 0;
+}
+
+#about #skills {
+  border-radius: 23%;
+  padding: 20px;
+  background-color: #71cdf7;
+}
+
+#about #skills ul {
+  font-weight: 150;
+  font-size: 1.5em;
+}
+
+#about .main-text {
+  width: 80%;
+  margin: 4% 10%;
+  clear: both;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.modal-button {
+  position: absolute;
+  left: 46%;
+}
+
+#CV-pdf {
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+.panel .panel-title {
+  text-shadow: none;
+  font-size: 1.5em;
+}
+
+.panel .panel-heading {
+  background-color: #71cdf7;
+  color: #2085d6;
+}
+
+.panel .panel-body {
+  background-color: #c2eafd;
+}
+
+#contact {
+  background-image: url("/img/fence.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+}
+
+#contact h1, #contact h2 {
+  color: #fff;
+  margin-bottom: 4%;
+}
+
+#contact .details {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 150;
+  font-family: "Mogra", cursive;
+}
+
+#contact .details a {
+  color: #fff;
+}
+
+#contact .details a:hover, #contact .details span:hover {
+  color: #000;
+  -webkit-transition: color 700ms;
+}
+
+#contact #sub {
+  margin: 2%;
+}
+
+#contact #visible-comment {
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 150;
+  font-family: 'Mogra', cursive;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #71cdf7;
+  z-index: 100;
+  max-height: 23px;
+  display: inline;
+}
+
+footer p {
+  display: inline;
+  text-align: center;
+}
+
+footer .twitter-follow-button {
+  float: right;
+  display: inline;
+}
+
+footer .fb-like {
+  display: inline-block;
+  float: right;
+  margin-right: 5px;
+}
+
+/*tool tips*/
+#tooltip1 {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#tooltip1:hover {
+  color: #000;
+}
+
+#tooltip2 {
+  position: fixed;
+  z-index: 100;
+  bottom: 23px;
+  right: 10px;
+  background-color: #71cdf7;
+  border-color: #71cdf7;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+#tooltip2 a {
+  color: #fff;
+  font-size: 2em;
+}
+
+#tooltip2:hover {
+  color: #000;
+}
