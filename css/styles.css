@@ -74,6 +74,7 @@ h1, h2, h3, h4 {
   display: block;
   margin: auto;
   max-width: 200px;
+  min-height: 200px;
   position: relative;
   padding: 3%;
 }
@@ -183,6 +184,7 @@ h1, h2, h3, h4 {
   text-align: center;
   font-size: 2em;
   font-weight: 150;
+  text-shadow: 2px 3px #30419c;
   font-family: "Mogra", cursive;
 }
 
